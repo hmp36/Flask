@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='css/stye.css') }}">
+    <title>ninjagold</title>
+</head>
+<body>
+     
+
+    <h1>Ninja Gold <class class="font" ></class></h1>
+<p>Your Gold: {{session['yourGold']}}<br></p>
+    <div class ='location'>
+    
+        <h4>Farm</h4>
+        <p>Earns 10-20 gold</p>
+        <form action="/process_money" method="post">
+        <input type="hidden" name ="location" value="farm" >    
+        <input class="button" type="submit" value="Find Gold!">
+    
+        </form>
+    </div>
+    <div class ='location'>
+    
+        <h4>Cave</h4>
+        <p>Earns 5-10 gold</p>
+        <form action="/process_money" method="post">
+        <input type="hidden" name ="location" value="cave"      >    
+        <input  class="button" type="submit" value="Find Gold!">        
+        </form>
+    </div>
+    <div class ='location'>
+   
+        <h4>House</h4>
+        <p>Earns 2-5 gold</p>
+        <form action="/process_money" method="post">
+        <input type="hidden" name ="location"value="house"            >    
+        <input  class="button"type="submit" value="Find Gold!">        
+        </form>
+    </div>
+    <div class ='location'>
+            <h4>Casino</h4>
+        <p>Earns 0-50 gold</p>
+        <form action="/process_money" method="post">
+        <input type="hidden" name ="location" value="casino"       >    
+        <input class="button"type="submit" value="Find Gold!">
+        </form>
+    </div>
+    <p>activities:</p>
+    
+    <div id ='activities'>
+         {% for x in session ['activity'] %}
+             {% if x.find("Lost") == 0 %}
+                <p style="color:red ;"> {{x}}</p>
+             {% else %}
+                <p style="color:green ;"> {{x}}</p>
+             {% endif %}
+         {% endfor %}
+         
+    </div>
+</body>
+</html>
