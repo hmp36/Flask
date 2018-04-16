@@ -59,3 +59,4 @@ def processGold():
     return redirect('/')
 
 app.run(debug = True)
+app.jinja_env.auto_reload = True

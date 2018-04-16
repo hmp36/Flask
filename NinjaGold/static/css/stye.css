@@ -2,7 +2,7 @@
    padding:0px;
    margin:0px; 
    font-family: verdana;
-  /* outline:1px solid black; */
+  outline:1px solid black;
 }
 
 
@@ -12,8 +12,8 @@ background: rgb(43, 226, 104);
 background-image: url("http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png");
 background-position: right;
 background-repeat: no-repeat;
-width: 800px;
-margin:20px auto;
+width: 600px;
+margin:5px auto;
 }
 
 
@@ -34,7 +34,7 @@ margin:20px auto;
     border-radius: 8px;
 }
 .button{
-    border-radius: 8px;
+    border-radius: 10px;
     color:red;
 }
 
