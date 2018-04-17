@@ -1,53 +1,60 @@
 *{
-   padding:0px;
-   margin:0px; 
+   padding:5px;
+   margin:5px; 
    font-family: 'Times New Roman';
-  /* outline:1px solid black; */
+  /* outline:1px sold black; */
 }
 
 h1{
     font-family: mistral;
+    background-position: 700px 250px;
+    font-size: 75px;
+    right: 500px;
     
 }
 
 body{
-background: rgb(43, 226, 104);     
-/* background-image: url("http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png")1000px 150px,
-("https://banner.kisspng.com/20180416/boq/kisspng-sai-stock-photography-sword-weapon-nunchaku-weapon-5ad4fd0fef0c35.7574594815239078559792.jpg")150px 1000px; */
+background: rgb(23, 216, 88);     
 
-/* background-position: 1000px 150px, 150px 1000px; */
-/* background-repeat: no-repeat, no-repeat; */
+background-position: center;
+background-repeat: no-repeat; 
 
 
-
-width: 600px;
-margin:15px auto;
+width: 800px;
+margin:00px auto;
 }
 
 
 .location{
-    border: 1px solid black;
+    border: 2px solid red;
     display: inline-block;
     text-align: center;
     background:gold; 
-    border-radius: 15px;
-    padding:5px;
+    border-radius: 100px;
+    padding:0px;
     font-style: italic;
+    margin: 25px;
+    
 }
 #activities{
-    border: 3px solid black;
-    height: 300px;
-    width:  270px;
+    border: 1px solid black;
+    height: 200px;
+    width:  450px;
     overflow:scroll;
     background:turquoise;
     border-radius: 0px;
-    position:1000px 150px;
+    position:0px 0px;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top:30px;
+    text-align: center;
 }
 .button{
-    border-radius: 1px;
+    border-radius: 100px;
     color:red;
     background-color: white;
-    padding:3px;
+    padding:4px;
+    
 }
 .wrap {
     width: 500px;
@@ -73,12 +80,12 @@ margin:15px auto;
     content: '';
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 200%;
     top: 0;
     left: 0;
-    z-index: -1;
+    /* z-index: -1; */
     background-image: url(http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png);
     background-repeat: no-repeat;
-    background-position: 800px 250px;
+    background-position: 875px 330px;
 }
 
