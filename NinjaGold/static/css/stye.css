@@ -42,7 +42,7 @@ margin:00px auto;
     width:  450px;
     overflow:scroll;
     background:turquoise;
-    border-radius: 0px;
+    border-top-left-radius: 15px;
     position:0px 0px;
     padding: 10px;
     margin-left: 70px;
@@ -70,10 +70,10 @@ margin:00px auto;
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1;
-    background-image: url(https://banner.kisspng.com/20180416/boq/kisspng-sai-stock-photography-sword-weapon-nunchaku-weapon-5ad4fd0fef0c35.7574594815239078559792.jpg);
+    /* z-index: -1; */
+    background-image: url(http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: 0px 0px;
 }
 
 .two:after {
@@ -85,7 +85,8 @@ margin:00px auto;
     left: 0;
     /* z-index: -1; */
     background-image: url(http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png);
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
     background-position: 875px 330px;
 }
+
 
