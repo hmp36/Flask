@@ -7,7 +7,17 @@
     <title>ninjagold</title>
 </head>
 <body>
-     
+<style>
+    .one {
+        background: url(image1.png) no-repeat left top;
+    }
+
+    .two {
+        background: url(image2.png) no-repeat right bottom;
+    }
+</style>
+
+<div class="one two"></div>
 
     <h1>Ninja Gold <class class="font" ></class></h1>
 <p>Your Gold: {{session['yourGold']}}<br></p>
@@ -47,7 +57,7 @@
         <input class="button"type="submit" value="Find Gold!">
         </form>
     </div>
-    <p>activities:</p>
+    <p>Activities:</p>
     
     <div id ='activities'>
          {% for x in session ['activity'] %}
