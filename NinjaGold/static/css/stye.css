@@ -2,7 +2,6 @@
    padding:5px;
    margin:5px; 
    font-family: 'Times New Roman';
-  /* outline:1px sold black; */
 }
 
 h1{
@@ -10,16 +9,12 @@ h1{
     background-position: 700px 250px;
     font-size: 75px;
     right: 500px;
-    
 }
 
 body{
 background: rgb(23, 216, 88);     
-
 background-position: center;
 background-repeat: no-repeat; 
-
-
 width: 800px;
 margin:00px auto;
 }
@@ -38,16 +33,15 @@ margin:00px auto;
 }
 #activities{
     border: 1px solid black;
+    border-top-left-radius: 15px;
     height: 200px;
     width:  450px;
-    overflow:scroll;
     background:turquoise;
-    border-top-left-radius: 15px;
-    position:0px 0px;
     padding: 10px;
     margin-left: 70px;
     margin-top:30px;
     text-align: center;
+    overflow:scroll;
 }
 .button{
     border-radius: 100px;
@@ -69,12 +63,12 @@ margin:00px auto;
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
-    /* z-index: -1; */
+    left: 0; 
+    z-index: -1;
     background-image: url(http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-}
+    background-position: 0px 0px; 
+ }
 
 .two:after {
     content: '';
@@ -83,7 +77,7 @@ margin:00px auto;
     height: 200%;
     top: 0;
     left: 0;
-    /* z-index: -1; */
+ z-index: -1;
     background-image: url(http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png);
    background-repeat: no-repeat;
     background-position: 875px 330px;
